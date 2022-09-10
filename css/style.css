@@ -150,6 +150,12 @@ i.icon-globe {
 i.icon-caret-down {
     font-size: 12px;
 }
+.icon-caret-down:before {
+    content: "\e900";
+  }
+  .icon-globe:after {
+    content: "\e901";
+  }
 .lengBar {
     position: relative;
     display: inline-block;
